@@ -48,7 +48,16 @@ message UpdateClient{
     string last_name = 2;
     string address = 3;
     string phone_number = 4;
-    string photo = 5;
+    string driving_license_number = 5;
+    string passport_number = 6;
+    string photo = 7;
+    string driving_number_given_place = 8;
+    string driving_number_given_date = 9;
+    string driving_number_expired = 10;
+    bool is_blocked = 11;
+    string propiska = 12;
+    string passport_pinfl = 13;
+    string additional_phone_number = 14;
 }
 
 message UpdatePatchClient {
