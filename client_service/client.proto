@@ -54,10 +54,9 @@ message UpdateClient{
     string driving_number_given_place = 8;
     string driving_number_given_date = 9;
     string driving_number_expired = 10;
-    bool is_blocked = 11;
-    string propiska = 12;
-    string passport_pinfl = 13;
-    string additional_phone_number = 14;
+    string propiska = 11;
+    string passport_pinfl = 12;
+    string additional_phone_number = 13;
 }
 
 message UpdatePatchClient {
