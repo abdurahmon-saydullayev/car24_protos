@@ -9,7 +9,7 @@ import "google/protobuf/empty.proto";
 import "client.proto";
 
 
-service UserService {
+service ClientService {
     rpc Create(CreateClient) returns (Client);
     rpc GetByID(CLientPrimaryKey) returns (Client);
     rpc GetList(GetListClientRequest) returns (GetListClientResponse);
