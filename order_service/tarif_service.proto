@@ -5,7 +5,7 @@ package order_service;
 option go_package = "genproto/order_service";
 import "tarif.proto";
 
-service OrderService{
+service TarifService{
     rpc CreateTarif(CreateTarif) returns (Tarif);
     rpc GetTarifByID(TarifPK) returns (Tarif);
 }
