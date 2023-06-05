@@ -6,6 +6,6 @@ option go_package = "genproto/order_service";
 import "mechanic.proto";
 
 service OrderService{
-    rpc Create(CreateMechanic) returns (Mechanic);
-    rpc GetByID(MechanicPK) returns (Mechanic);
+    rpc CreateMechanic(CreateMechanic) returns (Mechanic);
+    rpc GetMechanicByID(MechanicPK) returns (Mechanic);
 }
