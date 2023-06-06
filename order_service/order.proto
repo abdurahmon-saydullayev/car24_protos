@@ -31,7 +31,7 @@ message CreateOrder{
     string paid_price = 5;
     int32 day_count = 6;
     string start_date =7;
-    string discount =8;
+    double discount =8;
     bool status =9;
     int32 miliage =10;
     string is_paid_date =11;
