@@ -54,13 +54,13 @@ message UpdatePatchOrder {
     google.protobuf.Struct fields = 2;
 }
 
-message GetListOrdertRequest {
+message GetListOrderRequest {
     int64 offset = 1;
     int64 limit = 2;
     string search = 3;
 }
 
-message GetListOrdertResponse { 
+message GetListOrderResponse { 
     int64 count = 1;
     repeated Order clients = 2;
 }
