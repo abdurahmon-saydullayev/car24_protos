@@ -27,11 +27,11 @@ message CreateOrder{
     string car_id =1;
     string client_id =2;
     string tarif_id =3;
-    string total_price = 4;
-    string paid_price = 5;
+    double total_price = 4;
+    double paid_price = 5;
     int32 day_count = 6;
     string start_date =7;
-    double discount =8;
+    string discount =8;
     bool status =9;
     int32 miliage =10;
     string is_paid_date =11;
