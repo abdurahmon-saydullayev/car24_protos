@@ -40,6 +40,8 @@ message CreateOrder{
 
 message UpdateOrder{
     string id =1;
+    string car_id =2;
+    string client_id =3;
     string tarif_id =4;
     double total_price =5;
     double paid_price =6;
