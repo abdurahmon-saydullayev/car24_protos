@@ -15,12 +15,12 @@ message Order{
     int32 day_count =7;
     string start_date =8;
     string discount =9;
-    bool status =10;
-    int32 miliage =11;
-    string is_paid_date =12;
-    string created_at =13;
-    string updated_at =14;
-    string order_number =15;
+    string order_number =10;
+    bool status =11;
+    int32 miliage =12;
+    string is_paid_date =13;
+    string created_at =14;
+    string updated_at =15;
 }
 
 message CreateOrder{
