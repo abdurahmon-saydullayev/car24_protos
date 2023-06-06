@@ -6,7 +6,7 @@ option go_package = "genproto/order_service";
 import "car.proto";
 import "google/protobuf/empty.proto";
 
-service OrderService{
+service CarService {
     rpc Create (CreateCar) returns (Car);
     rpc GetByID (CarPrimaryKey) returns (Car);
     rpc GetList(GetListCarRequest) returns (GetListCarResponse);
