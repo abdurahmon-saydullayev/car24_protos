@@ -11,6 +11,8 @@ message Car{
     string tarif_id = 3;
     string model_id = 4;
     bool status = 5;
+    string created_at = 6;
+    string updated_at = 7;
 }
  message CreateCar{
     string state_number = 1;
