@@ -35,7 +35,6 @@ message CreateOrder{
     bool status =9;
     int32 miliage =10;
     string is_paid_date =11;
-    string order_number =12;
 }
 
 message UpdateOrder{
